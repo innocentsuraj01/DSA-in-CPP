@@ -8,5 +8,4 @@ int main(){
     cout<<"enter the number: ";
     cin>>b;
     cout<<a+b;
-
 }
