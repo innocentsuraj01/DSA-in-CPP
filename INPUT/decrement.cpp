@@ -5,4 +5,4 @@ int main(){
     cout<<x<<endl;
     cout<<--x<<endl;
     cout<<x--;
-}
+} 
