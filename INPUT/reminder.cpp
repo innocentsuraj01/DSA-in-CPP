@@ -3,10 +3,10 @@ using namespace std;
 int main(){
     int a,b,c;
     cout<<"Enter the first number : ";
-    cin>>a;
+    cin>>a; //dividend
     cout<<"Enter the second number : ";
-    cin>>b;
-    c = a/b;
-    cout<<"Reminder of two numbers is : "<<c;
-
+    cin>>b; //divisor
+    c = a/b; //quotient
+    int r = a - (b*c); //reminder
+    cout<<"Reminder of two numbers is : "<<r;
 }
