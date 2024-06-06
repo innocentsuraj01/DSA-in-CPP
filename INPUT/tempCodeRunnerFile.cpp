@@ -1,2 +1,2 @@
-char ch = 'a';
-    // cout<<(int)ch;
+num1 += num2 -= num1;
+    // cout<<num1<<" "<<num2<<endl;
