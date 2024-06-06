@@ -39,13 +39,18 @@ int main(){
 // cout<<"The volume of the cylinder is : "<<volume;
 
 
+// 5th question
+// char ch = 'A';
+// char ch1 = 'B';
+// int x = (int)ch;
+// int y = (int)ch1;
+// int z = y-x;
+// cout<<"Difference between ASCII of two characters : "<<z;
 
-char ch = 'A';
-char ch1 = 'B';
-int x = (int)ch;
-int y = (int)ch1;
-int z = y-x;
-cout<<"Difference between ASCII of two characters : "<<z;
+
+// 6th question
+// int i =  ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+//  cout<<i;
 
 
 }
