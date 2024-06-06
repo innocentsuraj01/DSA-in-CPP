@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 
+// 1st question
 //     int x;
 //  cout << "Enter first number\n";
 //  cin >> x; 
@@ -11,6 +12,7 @@ int main(){
 //  int Z = (x * y) % m;
 //  cout << "Output is: " << Z;
 
+// 2nd question
 //   int x;
 //  cout<<"Enter first number\n";
 //  cin>>x;  // user will give 'x' a value.
@@ -19,6 +21,7 @@ int main(){
 //  cin>>y;  // user will give 'y' a value.
 //  cout<<(x!=y)<<" "<<(x>=y);
 
+// 3rd question
 //  int x,y;
 //  cin>>x>>y;
 //     x+=y;
@@ -26,12 +29,23 @@ int main(){
 //     x%=y;
 //  cout<<x;
 
-        float radius,hight,volume;
-        cout<<"Enter the radius : ";
-        cin>>radius;
-        cout<<"Enter the hight : ";
-        cin>>hight;
-        volume = 3.14*radius*radius*hight;
-        cout<<"The volume of the cylinder is : "<<volume;
-        
+// 4th question
+// float radius,hight,volume;
+// cout<<"Enter the radius : ";
+// cin>>radius;
+// cout<<"Enter the hight : ";
+// cin>>hight;
+// volume = 3.14*radius*radius*hight;
+// cout<<"The volume of the cylinder is : "<<volume;
+
+
+
+char ch = 'A';
+char ch1 = 'B';
+int x = (int)ch;
+int y = (int)ch1;
+int z = y-x;
+cout<<"Difference between ASCII of two characters : "<<z;
+
+
 }
