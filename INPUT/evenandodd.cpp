@@ -4,9 +4,10 @@ int main (){
     int a;
     cout<<"Enter a number : ";
     cin>>a;
-    if(a%2==0) {
+    if(a%2==0){
         cout<<"Even number ";
-        else
+    }
+    if(a%2!=0){
         cout<<"Odd number ";
     }
 }
