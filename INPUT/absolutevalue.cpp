@@ -2,12 +2,12 @@
 using namespace std;
 int main (){
     int n;
-    cout<<"Enter a number : ";
+    cout<<"Enter a Integer : ";
     cin>>n;
     if (n>0){
-        cout<<"Positive number";
+        cout<<n;
     }
     else{
-        cout<<"Negative number";
+        cout<<-n;
     }
-}
+}   
