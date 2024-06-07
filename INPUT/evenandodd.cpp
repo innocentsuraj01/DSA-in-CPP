@@ -7,7 +7,7 @@ int main (){
     if(a%2==0){
         cout<<"Even number ";
     }
-    if(a%2!=0){
+    else {
         cout<<"Odd number ";
     }
 }
