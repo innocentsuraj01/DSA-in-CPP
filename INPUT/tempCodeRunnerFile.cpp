@@ -1,0 +1,1 @@
+ cout<<"Enter first number : "<<endl<<"Enter second number : ";
