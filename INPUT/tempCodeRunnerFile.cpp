@@ -1,7 +1,9 @@
-int a,b;
-    cout<<"Enter first number : ";
-    cin>>a;
-    cout<<"Enter second number : ";
-    cin>>b;
-    float modulus = a%b;
-    cout<<"The modulus of two number is : "<<modulus;
+if (ch<96 && ch>123){
+    //     cout<<"Lower case alphabet";
+    // }
+    // if (ch<66 && ch>90){
+    //     cout<<"Upper case alphabet";
+    // }
+    // else{
+    //     cout<<"Not a alphabet!";
+    // }
