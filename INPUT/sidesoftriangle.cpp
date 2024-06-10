@@ -8,10 +8,10 @@ int main(){
     cin>>b;
     cout<<"Enter the third side : ";
     cin>>c;
-    if(a+b>c || a+c>b || b+c>a){
+    if(a+b>c && a+c>b && b+c>a){
         cout<<"This is a triangle ";
     }
     else{
-        cout<<"This is not a triangle : ";
+        cout<<"This is not a triangle ";
     }
 }
