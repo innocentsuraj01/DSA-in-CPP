@@ -10,4 +10,6 @@ void star(int x){
 }
 int main(){
     star(5);
+    star(4);
+    star(3);
 }
