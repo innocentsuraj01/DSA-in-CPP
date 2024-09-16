@@ -1,14 +1,10 @@
 #include<iostream>
 using namespace std;
+void message(){
+    cout<<"Good Morning"<<endl;
+    cout<<"Have a noce day"<<endl;
+}
 int main()
 {
-    int n;
-    cout<<"Enter the vaule : ";
-    cin>>n;
-     for(int i=1; i<=n; i++){
-        for(int j=1; j<=i; j++){
-            cout<<"*";
-        } 
-        cout<<endl;
-    }
+    message();
 }
