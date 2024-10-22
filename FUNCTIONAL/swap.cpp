@@ -6,7 +6,8 @@ int main(){
     cin>>a;
     cout<<"Enter second no. : ";
     cin>>b;
-    int a = b;
-    int b = a;
-    cout<<a<<b<<endl;
+    int temp = a;
+    a = b;
+    b = temp;
+    cout<<"After swap"<<" "<<a<<" "<<b;
 }
